@@ -26,20 +26,20 @@ Before starting, ensure the following tools and services are installed on your m
 
 
 
-# Run to install dotnet ef
+## Run to install dotnet ef
 
 dotnet tool install --global dotnet-ef
 
-# Go to directory where you cloned the project ex. C:\Users\<user>\source\repos\MME
+## Go to directory where you cloned the project ex. C:\Users\<user>\source\repos\MME
 cd /d C:\Users\<user>\source\repos\MME
 
-# Once in the directory run migration commands
+## Once in the directory run migration commands
 dotnet ef migrations add InitialMigration --project MME.Persistence --startup-project MME.Api
 
-# Update database
+## Update database
 dotnet ef database update --project MME.Persistence --startup-project MME.Api
 
-# Run the application
+## Run the application
 
 
-# This can benefit from integration test and test for custom mapping and validation which i didn't have time to implement
+## This can benefit from integration test and test for custom mapping and validation which i didn't have time to implement
