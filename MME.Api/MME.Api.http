@@ -1,0 +1,6 @@
+@MME.Api_HostAddress = http://localhost:5057
+
+GET {{MME.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
