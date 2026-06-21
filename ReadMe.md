@@ -31,7 +31,7 @@ Before starting, ensure the following tools and services are installed on your m
 dotnet tool install --global dotnet-ef
 
 ## Go to directory where you cloned the project ex. C:\Users\<user>\source\repos\MME
-cd /d C:\Users\<user>\source\repos\MME
+cd /d C:\Users\\<user>\source\repos\MME
 
 ## Once in the directory run migration commands
 dotnet ef migrations add InitialMigration --project MME.Persistence --startup-project MME.Api
